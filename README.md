@@ -8,6 +8,6 @@ one for managing customer entities - module **customers**, and one for managing 
 concepts and functionalities that are essential in microservice architecture, such as configuration management with 
 MicroProfile API and service discovery. 
 
-This example was used for the blog [Running KumuluzEE microservices on Kubernetes](https://blog.kumuluz.com/kumuluzee/kubernetes/2017/12/03/kumuluzee-microservices-on-kubernetes_part1)
+This example was used for the blog [Running KumuluzEE microservices on Kubernetes](https://blog.kumuluz.com/kumuluzee/kubernetes/2017/12/03/kumuluzee-microservices-on-kubernetes_part1).
 
 [Blog Part 1 artifacts](https://github.com/zvonegit/kumuluzee-kubernetes/releases/tag/v1.0.0)
