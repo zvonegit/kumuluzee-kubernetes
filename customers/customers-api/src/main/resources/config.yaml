@@ -59,7 +59,7 @@ kumuluzee:
   health:
     checks:
       data-source-health-check:
-        connection-url: jdbc:postgresql://192.168.99.100:5432/customer
+        connection-url: jdbc:postgresql://postgres-customers:5432/customer
         username: dbuser
         password: postgres
       disk-space-health-check:

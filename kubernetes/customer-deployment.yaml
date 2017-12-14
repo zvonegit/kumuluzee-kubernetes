@@ -16,6 +16,12 @@ spec:
         envFrom:
           - configMapRef:
               name: kubernetes-customer-config
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 40
+          periodSeconds: 5
         ports:
         - containerPort: 8080
           name: server
